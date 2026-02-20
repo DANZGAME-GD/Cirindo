@@ -34,18 +34,7 @@ jobs:
 
       - name: Create ZIP file
         run: |
-          mkdir temp_pack
-
-          rsync -av . temp_pack \
-            --exclude ".git" \
-            --exclude "temp_pack" \
-            --exclude ".github" \
-            --exclude "changelog.json" \
-            --exclude "README.md"
-          cd temp_pack
-          zip -r ../Cirindo.zip .
-          cd ..
-          rm -rf temp_pack
+          zip -r Cirindo.zip . -x ".git/*"
 
       - name: Create Tag
         run: |
