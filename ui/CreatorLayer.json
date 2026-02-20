@@ -1,0 +1,53 @@
+{
+    "children": {
+        "node": {
+            "creator-buttons-menu": {
+                "children": {
+                    "all": {
+                        "event": {
+                            "on-hover": {
+                                "children": {
+                                    "new": [
+                                        {
+                                            "type": "CCSprite",
+                                            "id": "hover-exit",
+                                            "attributes": {
+                                                "sprite-frame": "GJ_select_001.png",
+                                                "scale": 2.6,
+                                                "position": {
+                                                    "anchor": "center",
+                                                    "x": -3,
+                                                    "y": 3
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "on-exit": {
+                                "children": {
+                                    "new": [
+                                        {
+                                            "type": "CCSprite",
+                                            "id": "hover-exit",
+                                            "attributes": {
+                                                "sprite-frame": "GJ_select_001.png",
+                                                "scale": 2.6,
+                                                "position": {
+                                                    "anchor": "center",
+                                                    "x": -3,
+                                                    "y": 3
+                                                },
+                                                "visible": false
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

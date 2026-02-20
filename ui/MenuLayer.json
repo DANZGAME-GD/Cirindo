@@ -1,0 +1,300 @@
+{
+    "children": {
+        "node": {
+            "bottom-menu": {
+                "children": {
+                    "node": {
+                        "lblazen.gdps_hub/gdps-hub": {
+                            "children": {
+                                "index": [
+                                    {
+                                        "type": "CircleButtonSprite",
+                                        "index": 0,
+                                        "attributes": {
+                                            "sprite-frame": "geode.loader/baseCircle_MediumAlt_Green.png"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "new": [
+            {
+                "type": "CCMenu",
+                "id": "info-menu",
+                "attributes": {
+                    "z-order": 1,
+                    "ignore-anchor-pos": false
+                },
+                "children": {
+                    "new": [
+                        {
+                            "type": "CCMenuItemSpriteExtra",
+                            "id": "info-button",
+                            "attributes": {
+                                "sprite-frame": "GJ_infoBtn_001.png",
+                                "position": {
+                                    "anchor": "top-right",
+                                    "x": -40,
+                                    "y": -30
+                                },
+                                "scale": 0.6,
+                                "base-scale": 0.6
+                            },
+                            "event": {
+                                "on-activate": {
+                                    "children": {
+                                        "new": [
+                                            {
+                                                "type": "Popup",
+                                                "id": "info-popup",
+                                                "attributes": {
+                                                    "sprite": "GJ_square02.png",
+                                                    "popup-size": {
+                                                        "width": 270,
+                                                        "height": 150
+                                                    },
+                                                    "title": "Credits",
+                                                    "show": true
+                                                },
+                                                "children": {
+                                                    "new": [
+                                                        {
+                                                            "type": "CCMenu",
+                                                            "id": "popup-menu",
+                                                            "attributes": {
+                                                                "ignore-anchor-pos": false,
+                                                                "z-order": 1,
+                                                                "content-size": {
+                                                                    "width": 270,
+                                                                    "height": 150
+                                                                },
+                                                                "position": {
+                                                                    "anchor": "center"
+
+                                                                }
+                                                            },
+                                                            "children": {
+                                                                "new": [
+                                                                    {
+                                                                        "type": "CCMenuItemSpriteExtra",
+                                                                        "id": "saritah",
+                                                                        "attributes": {
+                                                                            "sprite": "Danz_asset/icon/deepresonance.png",
+                                                                            "position": {
+                                                                                "anchor": "center",
+                                                                                "x": -60,
+                                                                                "y": -10
+                                                                            },
+                                                                            "scale": 1
+                                                                        },
+                                                                        "children": {
+                                                                            "new": [
+                                                                                {
+                                                                                    "type": "CCLabelBMFont",
+                                                                                    "id": "saritah-label",
+                                                                                    "attributes": {
+                                                                                        "font": "goldFont.fnt",
+                                                                                        "text": "DeepResonanceX",
+                                                                                        "position": {
+                                                                                            "anchor": "center",
+                                                                                            "x": 0,
+                                                                                            "y": 30
+                                                                                        },
+                                                                                        "scale": 0.6
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "event": {
+                                                                            "on-activate": {
+                                                                                "attributes": {
+                                                                                    "link": {
+                                                                                        "type": "profile",
+                                                                                        "id": 5668656
+                                                                                    }
+                                                                                },
+                                                                                "parent": {
+                                                                                    "parent": {
+                                                                                        "parent": {
+                                                                                            "parent": {
+                                                                                                "children": {
+                                                                                                    "node": {
+                                                                                                        "ProfilePage": {
+                                                                                                            "children": {
+                                                                                                                "new": [
+                                                                                                                    {
+                                                                                                                        "type": "CCMenu",
+                                                                                                                        "id": "developer-menu",
+                                                                                                                        "attributes": {
+                                                                                                                            "ignore-anchor-pos": false,
+                                                                                                                            "z-order": 1
+                                                                                                                        },
+                                                                                                                        "children": {
+                                                                                                                            "new": [
+                                                                                                                                {
+                                                                                                                                    "type": "CCMenuItemSpriteExtra",
+                                                                                                                                    "id": "developer",
+                                                                                                                                    "attributes": {
+                                                                                                                                        "sprite": "Danz_asset/badges/developer.png",
+                                                                                                                                        "position": {
+                                                                                                                                            "anchor": "center",
+                                                                                                                                            "x": -92,
+                                                                                                                                            "y": 123
+                                                                                                                                        }
+                                                                                                                                    },
+                                                                                                                                    "event": {
+                                                                                                                                        "on-activate": {
+                                                                                                                                            "children": {
+                                                                                                                                                "new": [
+                                                                                                                                                    {
+                                                                                                                                                        "type": "Alert",
+                                                                                                                                                        "id": "developer-info",
+                                                                                                                                                        "attributes": {
+                                                                                                                                                            "title": "Texture Asset",
+                                                                                                                                                            "description": "<cf>DeepResonanceX</c> helps in creating <cy>Texture Assets</c>",
+                                                                                                                                                            "button-text": "Ok",
+                                                                                                                                                            "show": true
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                ]
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "CCMenuItemSpriteExtra",
+                                                                        "id": "chessdash",
+                                                                        "attributes": {
+                                                                            "sprite": "Danz_asset/icon/chessdash.png",
+                                                                            "position": {
+                                                                                "anchor": "center",
+                                                                                "x": 60,
+                                                                                "y": -10
+                                                                            },
+                                                                            "scale": 1
+                                                                        },
+                                                                        "children": {
+                                                                            "new": [
+                                                                                {
+                                                                                    "type": "CCLabelBMFont",
+                                                                                    "id": "chessdash-label",
+                                                                                    "attributes": {
+                                                                                        "font": "goldFont.fnt",
+                                                                                        "text": "ChessDash543",
+                                                                                        "position": {
+                                                                                            "anchor": "center",
+                                                                                            "x": 0,
+                                                                                            "y": 30
+                                                                                        },
+                                                                                        "scale": 0.6
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "event": {
+                                                                            "on-activate": {
+                                                                                "attributes": {
+                                                                                    "link": {
+                                                                                        "type": "profile",
+                                                                                        "id": 25924288
+                                                                                    }
+                                                                                },
+                                                                                "parent": {
+                                                                                    "parent": {
+                                                                                        "parent": {
+                                                                                            "parent": {
+                                                                                                "children": {
+                                                                                                    "node": {
+                                                                                                        "ProfilePage": {
+                                                                                                            "children": {
+                                                                                                                "new": [
+                                                                                                                    {
+                                                                                                                        "type": "CCMenu",
+                                                                                                                        "id": "developer-menu",
+                                                                                                                        "attributes": {
+                                                                                                                            "ignore-anchor-pos": false,
+                                                                                                                            "z-order": 1
+                                                                                                                        },
+                                                                                                                        "children": {
+                                                                                                                            "new": [
+                                                                                                                                {
+                                                                                                                                    "type": "CCMenuItemSpriteExtra",
+                                                                                                                                    "id": "developer",
+                                                                                                                                    "attributes": {
+                                                                                                                                        "sprite": "Danz_asset/badges/developer.png",
+                                                                                                                                        "position": {
+                                                                                                                                            "anchor": "center",
+                                                                                                                                            "x": -91,
+                                                                                                                                            "y": 123
+                                                                                                                                        }
+                                                                                                                                    },
+                                                                                                                                    "event": {
+                                                                                                                                        "on-activate": {
+                                                                                                                                            "children": {
+                                                                                                                                                "new": [
+                                                                                                                                                    {
+                                                                                                                                                        "type": "Alert",
+                                                                                                                                                        "id": "developer-info",
+                                                                                                                                                        "attributes": {
+                                                                                                                                                            "title": "Graphic Asset",
+                                                                                                                                                            "description": "<cf>ChessDash543</c> helps in creating <cy>Graphic Textures</c>",
+                                                                                                                                                            "button-text": "Ok",
+                                                                                                                                                            "show": true
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                ]
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

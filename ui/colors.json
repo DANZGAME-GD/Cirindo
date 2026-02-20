@@ -1,0 +1,173 @@
+{
+    "background": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+    },
+    "main-menu-bg": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "main-menu-ground": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "level-search-bg": {
+        "r": 150,
+        "g": 0,
+        "b": 0
+    },
+    "level-search-bar-bg": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "quick-search-bg": {
+        "r": 150,
+        "g": 0,
+        "b": 0
+    },
+    "difficulty-filters-bg": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "length-filters-bg": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "edit-name-bg": {
+        "r": 115,
+        "g": 0,
+        "b": 0
+    },
+    "edit-description-bg": {
+        "r": 115,
+        "g": 0,
+        "b": 0
+    },
+    "info-description-bg": {
+        "r": 115,
+        "g": 0,
+        "b": 0
+    },
+    "comment-list-layer-bg": {
+        "r": 120,
+        "g": 7,
+        "b": 0
+    },
+    "comment-cell-odd": {
+        "r": 138,
+        "g": 15,
+        "b": 11
+    },
+    "comment-cell-even": {
+        "r": 150,
+        "g": 20,
+        "b": 15
+    },
+    "comment-cell-bg-odd": {
+        "r": 150,
+        "g": 20,
+        "b": 15
+    },
+    "comment-cell-bg-even": {
+        "r": 138,
+        "g": 15,
+        "b": 11
+    },
+    "comment-cell-small-odd": {
+        "r": 138,
+        "g": 15,
+        "b": 11
+    },
+    "comment-cell-small-even": {
+        "r": 150,
+        "g": 20,
+        "b": 15
+    },
+    "chest-opened-overlay": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+    },
+    "chest-opened-overlay-25": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+    },
+    "chest-opened-overlay-50": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+    },
+    "chest-opened-overlay-100": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+    },
+    "comment-list-outline-blue": {
+        "r": 175,
+        "g": 20,
+        "b": 15
+    },
+    "comment-list-outline-brown": {
+        "r": 138,
+        "g": 15,
+        "b": 11
+    },
+    "list-layer-bg": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "list-cell-odd": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "list-cell-even": {
+        "r": 150,
+        "g": 0,
+        "b": 0
+    },
+    "input-hint-text": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+    },
+    "music-cell-odd": {
+        "r": 138,
+        "g": 15,
+        "b": 11
+    },
+    "music-cell-even": {
+        "r": 77,
+        "g": 44,
+        "b": 17
+    },
+    "play-loading-outer": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "play-loading-center": {
+        "r": 128,
+        "g": 0,
+        "b": 0
+    },
+    "play-loading-inner": {
+        "r": 110,
+        "g": 91,
+        "b": 44
+    },
+    "play-loading-progress": {
+        "r": 255,
+        "g": 20,
+        "b": 20
+    }
+}
