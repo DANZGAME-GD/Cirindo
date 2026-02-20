@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="logo.png" alt="Cirindo Logo" width="180" height="180">
+    <img src="logo.png" alt="Cirindo Logo" width="310" height="310">
 </p>
 
 <h3 align="center"><b>Geosu!</b> is a UI Taken From The Game Reference Called <a href='https://osu.ppy.sh/'>Osu!</a>, Which is a Rhythm Game</h3>
