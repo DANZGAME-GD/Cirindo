@@ -2,7 +2,7 @@
     <img src="logo.png" alt="Cirindo Logo" width="310" height="310">
 </p>
 
-<h3 align="center"><b>Geosu!</b> is a UI Taken From The Game Reference Called <a href='https://osu.ppy.sh/'>Osu!</a>, Which is a Rhythm Game</h3>
+<h3 align="center"><b>Cirindo</b> (Circuit Indonesia) is a texture pack from the Circuit board line</h3>
 
 ## Must Download Mods
 * [Node IDs](https://geode-sdk.org/mods/geode.node-ids)
