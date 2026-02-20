@@ -40,7 +40,8 @@ jobs:
             --exclude ".git" \
             --exclude "temp_pack" \
             --exclude ".github" \
-            --exclude "changelog.json"
+            --exclude "changelog.json" \
+            --exclude "README.md"
           cd temp_pack
           zip -r ../Cirindo.zip .
           cd ..
